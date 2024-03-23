@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My project</title>
+    <script src="https://kit.fontawesome.com/a3fb4de63e.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: white;
+        }
+        nav{
+            /* background: red; */
+            height: 100px;
+            width: 100%;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 15px;
+            background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+        }
+        .gas-gns{
+            /* background-color: yellow; */
+            height : 550px;
+            width: 25%;
+            margin-right: 10px;
+            justify-content: center;
+            background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+        }
+        .gghs-hns{
+            background-color: white;
+            height : 550px;
+            width: 100%;
+
+ 
+
+
+        }
+        footer{
+            /* background-color: green; */
+            background-color: #DCD9D4;
+            background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+            background-blend-mode: soft-light,screen;
+            height: 70px;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sec-dec{
+            height : 550px;
+            width: 100%;
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .logo-dis{
+            width:60px;
+            height: 60px; 
+        }
+        .gih-logo{
+            /* border-radius: 50%; */
+        }
+        .content-dis{
+            display: flex;
+            align-items: center;
+            gap: 60px;
+            position:relative;
+            left:-30px;
+        }
+        .prof-dis{
+            width:50px;
+            height:50px;
+            border-radius: 50%;
+        }
+        .anchors{
+            color: white;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-size: x-large;
+        }
+        .anch-dis{
+            color:black;
+            text-decoration:none;
+            font-family: sans-serif;
+            font-size: x-large;
+        }
+        .anch-dis:hover{
+            color: purple;
+        }
+        .aside-nt{
+            display: flex;
+            flex-direction: column;
+            /* align-items:center; */
+            /* justify-content: center; */
+            position:relative;
+            left:35px;
+            gap:50px;
+            padding-top: 20px;
+
+            
+        }
+        .icon-content{
+            display:flex;
+            gap: 20px;
+            align-items: center;
+            /* justify-content: center; */
+        }
+        .icon-content:hover{
+            color: purple;
+        }
+        .icon-size{
+            font-size: x-large;
+        }
+        .card-in{
+            width:300px;
+            height:200px;
+            background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);;
+            border-radius: 10px;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        .card-in:hover{
+            box-shadow: 10px 10px 5px rgb(231, 215, 111);
+        }
+        .icon-content-2{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 20px;
+            font-size: x-large;
+            font-family: sans-serif;
+        }
+        .card-in-main{
+            display: flex;
+            flex-wrap: wrap;
+            gap:60px;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="gih-logo">
+                <img class="logo-dis" src="https://i.pinimg.com/564x/cf/e8/9b/cfe89b81d77a4eed574eee4bd7aa677d.jpg" alt="logo">
+            </div>
+            <div class="content-dis">
+                <a class ="anchors" href="">Home</a>
+                <a class ="anchors" href="">About us</a>
+                <a class ="anchors" href="">Services</a>
+                <a class ="anchors" href="">Contact us</a>
+                <a class ="anchors" href="">Career</a>
+                <img class="prof-dis" src="https://png.pngtree.com/png-vector/20191110/ourmid/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg" alt="profile">
+
+            </div>
+        </nav>
+    </header>
+    <section class="sec-dec">
+        <aside class="gas-gns">
+            <div class="aside-nt">
+                <div class="icon-content">
+                    <i class="fa-brands fa-windows icon-size" ></i>
+                    <a class ="anch-dis" href="">Dashboard</a>
+                </div>
+                <div class="icon-content">
+                    <i class="fa-solid fa-location-dot icon-size"></i>
+                    <a class ="anch-dis" href="">Tracking</a>
+                </div>
+                <div class="icon-content">
+                    <i class="fa-solid fa-cart-shopping icon-size"></i>
+                    <a class ="anch-dis" href="">Product</a>
+                </div>
+                <div class="icon-content">
+                    <i class="fa-solid fa-gear icon-size"></i>
+                    <a class ="anch-dis" href="">Setting</a>
+                </div>
+
+                <div class="icon-content">
+                    <i class="fa-solid fa-graduation-cap icon-size"></i>
+                    <a class ="anch-dis" href="">Carrer</a>
+                </div>
+                <div class="icon-content">
+                    <i class="fa-solid fa-power-off icon-size"></i>
+                    <a class ="anch-dis" href="">Logout</a>
+                </div>
+            </div>
+        </aside>
+        <section class ="gghs-hns">
+            <h1 style="font-family:sans-serif; font-size:x-large; margin-left:20px; color:black; margin-bottom: 50px;">Dashboard</h1>
+            <div class="card-in-main">
+                <div class="card-in">
+                    <div class="icon-content-2">
+                        <h1>Demo Card 1</h1>
+                        <i class="fa-regular fa-thumbs-up"></i>
+                    </div>
+                    
+    
+                </div>
+                <div class="card-in">
+                    <div class="icon-content-2">
+                        <h1>Demo Card 2</h1>
+                        <i class="fa-solid fa-share-nodes"></i>
+                    </div>
+                    
+    
+                </div>
+                <div class="card-in">
+                    <div class="icon-content-2">
+                        <h1>Demo Card 3</h1>
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1 style="font-size: 30px; font-family: sans-serif;">Information</h1>
+                <p style="font-size: x-large; font-family: sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam nemo architecto fugit accusantium! Facilis obcaecati voluptates delectus officiis atque debitis ipsam ullam cum exercitationem a rerum reprehenderit eum, voluptas, dolore esse laudantium?
+                </p>
+            </div>
+            
+
+
+        </section>
+    </section>
+    <footer>    
+        <p style="font-family: sans-serif; font-size: x-large; text-align: center;">© This Project is made By Abhishek Dandgawhal</p>
+    </footer>
+</body>
+</html>
